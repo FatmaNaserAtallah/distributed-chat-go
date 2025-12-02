@@ -15,5 +15,6 @@ This project implements a simple real-time chat server in Go using goroutines an
 - `client.go` — simple client to connect and send messages.
 
 ## How to run (local)
-1. Ensure Go is installed (1.18+ recommended).
-2. Start the server:
+1. Start server: go run server.go
+2. Start clients: go run client.go localhost:9000 in separate terminals
+3. Type messages in clients to test broadcasting and history.
